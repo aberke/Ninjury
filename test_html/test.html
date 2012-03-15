@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" /> -->
+        <link rel="stylesheet" href="style.css" />
+        
+        <style>
+        </style>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"> -->
+        <script src="jquery.js">
+        </script>
+        <!-- <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"> -->
+        <script src="jquery_mobile.js">
+        </script>
+    </head>
+    <body>
+        <div data-role="page" data-theme="a" id="page1">
+            <div data-theme="a" data-role="header">
+                <!-- <h1 id="header_logo"><a href="#">Sailthru</a></h1> -->
+                <div id="header_panel">
+                    <!-- <a href="#" id="header_logo" >Sailthru</a> -->
+                    <a href="#"><img id="header_logo" src="images/sailthru_logo.png" /></a>
+                    <h1 id="header_logout"><a href="#">Logout</a></h1>
+                </div>
+            </div>
+           <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page1" data-theme="a" data-icon="grid">
+                            Reports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page1" data-theme="a" data-icon="star">
+                            Campaigns
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page1" data-theme="a" data-icon="info">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="content" >
+                <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>
+                            Scheduled
+                        </h3>
+                        <p>
+                            Test test test test test test test test test test test test test.
+                        </p>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            In Progress
+                        </h3>
+                        <p>
+                            Test test test test test test test test test test test test test.
+                        </p>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Unscheduled
+                        </h3>
+                        <p>
+                            Test test test test test test test test test test test test test.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="a">
+                <h3>
+                    Footer
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
