@@ -96,11 +96,11 @@
 }
 
 .ui-btn-up-a {
-	border: 1px solid #000000 /*{a-bup-border}*/;
+	border: 1px solid #00cced /*{a-bup-border}*/;
 	background: #00cced /*{a-bup-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{a-bup-color}*/;
-	text-shadow: 0 /*{a-bup-shadow-x}*/ 0px /*{a-bup-shadow-y}*/ 0px /*{a-bup-shadow-radius}*/ #000000 /*{a-bup-shadow-color}*/;
+	text-shadow: 0px /*{a-bup-shadow-x}*/ 0px /*{a-bup-shadow-y}*/ 0px /*{a-bup-shadow-radius}*/ #000000 /*{a-bup-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #80e5f5 /*{a-bup-background-start}*/), to( #80e5f5 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #00cced /*{a-bup-background-start}*/, #00cced /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
 	background-image:    -moz-linear-gradient( #00cced /*{a-bup-background-start}*/, #00cced /*{a-bup-background-end}*/); /* FF3.6 */
@@ -113,11 +113,11 @@
 }
 
 .ui-btn-hover-a {
-	border: 1px solid #6d6e70 /*{a-bhover-border}*/;
-	background: #80e5f5 /*{a-bhover-background-color}*/;
+	border: 1px solid #00cced /*{a-bhover-border}*/;
+	background: #e5fafc /*{a-bhover-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{a-bhover-color}*/;
-	text-shadow:  0  /*{a-bhover-shadow-x}*/  0px  /*{a-bhover-shadow-y}*/  0px  /*{a-bhover-shadow-radius}*/ #eeeeee /*{a-bhover-shadow-color}*/;
+	text-shadow:  0px  /*{a-bhover-shadow-x}*/  0px  /*{a-bhover-shadow-y}*/  0px  /*{a-bhover-shadow-radius}*/ #eeeeee /*{a-bhover-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #00cced /*{a-bhover-background-start}*/), to( #00cced /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #80e5f5 /*{a-bhover-background-start}*/, #80e5f5 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
 	background-image:    -moz-linear-gradient( #80e5f5 /*{a-bhover-background-start}*/, #80e5f5 /*{a-bhover-background-end}*/); /* FF3.6 */
@@ -129,7 +129,7 @@
 	color: #404041 /*{a-bhover-color}*/;
 }
 .ui-btn-down-a {
-	border: 1px solid #6d6e70 /*{a-bdown-border}*/;
+	border: 1px solid #00cced /*{a-bdown-border}*/;
 	background: #00cced /*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{a-bdown-color}*/;
@@ -166,7 +166,7 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-btn-active {
-	border: 1px solid 		#000000 /*{global-active-border}*/;
+	border: 1px solid 		#00cced /*{global-active-border}*/;
 	background: 			#00cced /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: 					#fff /*{global-active-color}*/;
@@ -1309,6 +1309,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 /* Sailthru Rules */
 
 #header_logo{
+    /* background-image: url("images/sailthru_logo.png"); */
     display: inline-block;
     float: left;
     max-height: 38px;
@@ -1345,17 +1346,18 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 }
 
 .ui-navbar .ui-btn-active{
-	border-bottom: 0px solid 
+	border-bottom: 0px solid ;
+    color: #e5fafc;
 }
 
-.ui-navbar{
-	background: #00cced;
-}
 
 .ui-navbar .ui-btn{
-	border-top: 0px;
-	border-left: 0px;
-	border-right: 0px;
+    background: #e5fafc;
+    border-width: 5px;
+}
+
+.ui-navbar .ui-btn-text{
+   color: #404041;
 }
 
 .ui-footer{
