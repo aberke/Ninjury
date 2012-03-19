@@ -1339,6 +1339,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 
 .ui-content .ui-collapsible-heading-toggle{
 	background: #404041;
+    border-color: #000000;
 }
 
 .ui-content .ui-btn-hover-a{
@@ -1360,6 +1361,21 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
    color: #404041;
 }
 
-.ui-footer{
+.ui-navbar #campaigns{
+    background-image: url("images/icon_campaigns_small.png");
+   }
    
+.ui-navbar .ui-icon{
+    width: 54px!important;
+    height: 36px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+#reports .ui-icon {
+    background: url("images/icon_reports_small.png") 50% 50% no-repeat;
+    background-size: 54px 36px;
 }
