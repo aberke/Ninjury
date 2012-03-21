@@ -43,7 +43,7 @@
 }
 
 .ui-bar-a .ui-link:visited {
-    color:  #2489CE  /*{a-bar-link-visited}*/;
+color:  #2489CE  /*{a-bar-link-visited}*/;
 }
 
 .ui-bar-a,
@@ -92,7 +92,7 @@
 }
 
 .ui-body-a .ui-link:visited {
-    color:  #2489CE  /*{a-body-link-visited}*/;
+color:  #2489CE  /*{a-body-link-visited}*/;
 }
 
 .ui-btn-up-a {
@@ -310,8 +310,8 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min--moz-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 240dpi) {
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi) {
 	
 	.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
 	.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
@@ -512,9 +512,9 @@ a.ui-link-inherit {
 .ui-btn-corner-right,
 .ui-btn-corner-left,
 .ui-btn-corner-all {
-  -webkit-background-clip: padding-box;
-     -moz-background-clip: padding;
-          background-clip: padding-box;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
 }
 
 /* Overlay / modal
@@ -654,7 +654,7 @@ div.ui-mobile-viewport { overflow-x: hidden; }
 .ui-mobile-rendering > * { visibility: hidden; }
 
 /*headers, content panels*/
-.ui-bar, .ui-body { position: relative; padding: .4em 15px;  overflow: hidden; display: block;  clear:both;  }
+.ui-bar, .ui-body { position: relative; padding: .4em 15px;  overflow: hidden; display: block;  } /*ALEX B GOT RID OF clear: both;*/
 .ui-bar { font-size: 16px; margin: 0; }
 .ui-bar h1, .ui-bar h2, .ui-bar h3, .ui-bar h4, .ui-bar h5, .ui-bar h6 { margin: 0; padding: 0; font-size: 16px; display: inline-block; }
 
@@ -728,7 +728,7 @@ div.ui-mobile-viewport { overflow-x: hidden; }
 }
 @-webkit-keyframes spin {
 	from {-webkit-transform: rotate(0deg);}
-  	to {-webkit-transform: rotate(360deg);}
+	to {-webkit-transform: rotate(360deg);}
 }
 
 /* Transitions from jQtouch (with small modifications): http://www.jqtouch.com/
@@ -805,52 +805,52 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 @-webkit-keyframes slideinfromright {
-    from { -webkit-transform: translateX(100%); }
-    to { -webkit-transform: translateX(0); }
+from { -webkit-transform: translateX(100%); }
+to { -webkit-transform: translateX(0); }
 }
 
 @-webkit-keyframes slideinfromleft {
-    from { -webkit-transform: translateX(-100%); }
-    to { -webkit-transform: translateX(0); }
+from { -webkit-transform: translateX(-100%); }
+to { -webkit-transform: translateX(0); }
 }
 
 @-webkit-keyframes slideouttoleft {
-    from { -webkit-transform: translateX(0); }
-    to { -webkit-transform: translateX(-100%); }
+from { -webkit-transform: translateX(0); }
+to { -webkit-transform: translateX(-100%); }
 }
 
 @-webkit-keyframes slideouttoright {
-    from { -webkit-transform: translateX(0); }
-    to { -webkit-transform: translateX(100%); }
+from { -webkit-transform: translateX(0); }
+to { -webkit-transform: translateX(100%); }
 }
 
 @-webkit-keyframes slideinfromtop {
-    from { -webkit-transform: translateY(-100%); }
-    to { -webkit-transform: translateY(0); }
+from { -webkit-transform: translateY(-100%); }
+to { -webkit-transform: translateY(0); }
 }
 
 @-webkit-keyframes slideinfrombottom {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(0); }
+from { -webkit-transform: translateY(100%); }
+to { -webkit-transform: translateY(0); }
 }
 
 @-webkit-keyframes slideouttobottom {
-    from { -webkit-transform: translateY(0); }
-    to { -webkit-transform: translateY(100%); }
+from { -webkit-transform: translateY(0); }
+to { -webkit-transform: translateY(100%); }
 }
 
 @-webkit-keyframes slideouttotop {
-    from { -webkit-transform: translateY(0); }
-    to { -webkit-transform: translateY(-100%); }
+from { -webkit-transform: translateY(0); }
+to { -webkit-transform: translateY(-100%); }
 }
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
+from { opacity: 0; }
+to { opacity: 1; }
 }
 
 @-webkit-keyframes fadeout {
-    from { opacity: 1; }
-    to { opacity: 0; }
+from { opacity: 1; }
+to { opacity: 0; }
 }
 
 .fade.out {
@@ -865,11 +865,11 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 /* The properties in this rule are only necessary for the 'flip' transition.
- * We need specify the perspective to create a projection matrix. This will add
- * some depth as the element flips. The depth number represents the distance of
- * the viewer from the z-plane. According to the CSS3 spec, 1000 is a moderate
- * value.
- */
+* We need specify the perspective to create a projection matrix. This will add
+* some depth as the element flips. The depth number represents the distance of
+* the viewer from the z-plane. According to the CSS3 spec, 1000 is a moderate
+* value.
+*/
 .viewport-flip {
 	-webkit-perspective: 1000;
 	position: absolute;
@@ -911,31 +911,31 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 @-webkit-keyframes flipinfromright {
-    from { -webkit-transform: rotateY(-180deg) scale(.8); }
-    to { -webkit-transform: rotateY(0) scale(1); }
+from { -webkit-transform: rotateY(-180deg) scale(.8); }
+to { -webkit-transform: rotateY(0) scale(1); }
 }
 
 @-webkit-keyframes flipinfromleft {
-    from { -webkit-transform: rotateY(180deg) scale(.8); }
-    to { -webkit-transform: rotateY(0) scale(1); }
+from { -webkit-transform: rotateY(180deg) scale(.8); }
+to { -webkit-transform: rotateY(0) scale(1); }
 }
 
 @-webkit-keyframes flipouttoleft {
-    from { -webkit-transform: rotateY(0) scale(1); }
-    to { -webkit-transform: rotateY(-180deg) scale(.8); }
+from { -webkit-transform: rotateY(0) scale(1); }
+to { -webkit-transform: rotateY(-180deg) scale(.8); }
 }
 
 @-webkit-keyframes flipouttoright {
-    from { -webkit-transform: rotateY(0) scale(1); }
-    to { -webkit-transform: rotateY(180deg) scale(.8); }
+from { -webkit-transform: rotateY(0) scale(1); }
+to { -webkit-transform: rotateY(180deg) scale(.8); }
 }
 
 
 /* Hackish, but reliable. */
 
 @-webkit-keyframes dontmove {
-    from { opacity: 1; }
-    to { opacity: 1; }
+from { opacity: 1; }
+to { opacity: 1; }
 }
 
 .pop {
@@ -944,7 +944,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 
 .pop.in {
 	-webkit-transform: scale(1);
-    opacity: 1;
+opacity: 1;
 	-webkit-animation-name: popin;
 	z-index: 10;
 }
@@ -962,25 +962,25 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 @-webkit-keyframes popin {
-    from {
-        -webkit-transform: scale(.2);
-        opacity: 0;
-    }
-    to {
-        -webkit-transform: scale(1);
-        opacity: 1;
-    }
+from {
+-webkit-transform: scale(.2);
+opacity: 0;
+}
+to {
+-webkit-transform: scale(1);
+opacity: 1;
+}
 }
 
 @-webkit-keyframes popout {
-    from {
-        -webkit-transform: scale(1);
-        opacity: 1;
-    }
-    to {
-        -webkit-transform: scale(.2);
-        opacity: 0;
-    }
+from {
+-webkit-transform: scale(1);
+opacity: 1;
+}
+to {
+-webkit-transform: scale(.2);
+opacity: 0;
+}
 }/* content configurations. */
 .ui-grid-a, .ui-grid-b, .ui-grid-c, .ui-grid-d { overflow: hidden; }
 .ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d, .ui-block-e { margin: 0; padding: 0; border: 0; float: left; min-height:1px;}
@@ -1032,7 +1032,8 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-navbar-expanded .ui-btn-icon-bottom .ui-icon { bottom: 15px; }
 .ui-navbar-expanded li .ui-btn .ui-btn-inner { min-height: 2.5em; }
 .ui-navbar-expanded .ui-navbar-noicons .ui-btn .ui-btn-inner { padding-top: 1.8em; padding-bottom: 1.9em; }
-.ui-btn { display: block; text-align: center; cursor:pointer;  position: relative; margin: .5em 5px; padding: 0;}
+.ui-btn { display: block; text-align: center; cursor:pointer;  position: relative; margin: .5em 0px; padding: 0;}  
+/*ALEX CHANGED ABOVE FROM margin: .5em, 5px; to .5em 0px;*/
 .ui-header .ui-btn, .ui-footer .ui-btn, .ui-bar .ui-btn { display: inline-block; font-size: 13px; margin: 0; }
 .ui-btn-inline { display: inline-block; }
 .ui-btn-inner { padding: .6em 25px; display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; position: relative; zoom: 1; }
@@ -1093,7 +1094,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-collapsible-content {
 	display: block;
 	margin:  0 -8px;
-	padding: 10px 16px;
+	padding: 5px 16px;	/*CHANGED BY ALEX B FROM padding: 10px 16px;*/
 	border-top:  none;      /* Overrides ui-btn-up-* */
 	background-image: none; /* Overrides ui-btn-up-* */
 	font-weight: normal;    /* Overrides ui-btn-up-* */
@@ -1159,10 +1160,10 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-checkbox .ui-btn-icon-left .ui-icon, .ui-radio .ui-btn-icon-left .ui-icon {left: 15px; }
 .ui-checkbox .ui-btn-icon-right .ui-icon, .ui-radio .ui-btn-icon-right .ui-icon {right: 15px; }
 /* input, label positioning */
-.ui-checkbox input,.ui-radio input { position:absolute; left:20px; top:50%; width: 10px; height: 10px;  margin:-5px 0 0 0; outline: 0 !important; z-index: 1; }.ui-field-contain, fieldset.ui-field-contain { padding: 1.5em 0; margin: 0; border-width: 0 0 1px 0; overflow: visible; }
+.ui-checkbox input,.ui-radio input { position:absolute; left:20px; top:50%; width: 10px; height: 10px;  margin:-5px 0 0 0; outline: 0 !important; z-index: 1; }.ui-field-contain, fieldset.ui-field-contain { padding: 0; margin: 0; border-width: 0 0 1px 0; overflow: visible; } /*ALEX CHANGED FROM padding: 1.5em, 0;*/
 .ui-field-contain:first-child { border-top-width: 0; }
 @media all and (min-width: 450px){
-	.ui-field-contain, .ui-mobile fieldset.ui-field-contain { border-width: 0; padding: 0; margin: 1em 0; }
+	.ui-field-contain, .ui-mobile fieldset.ui-field-contain { border-width: 0; padding: 0; margin: 0; } /* CHANGED BY ALEX B - WAS margin: 1em 0;*/
 }	.ui-select { display: block; position: relative; }
 .ui-select select { position: absolute; left: -9999px; top: -9999px; }
 .ui-select .ui-btn { overflow: hidden; }
@@ -1199,9 +1200,9 @@ label.ui-select { font-size: 16px; line-height: 1.4;  font-weight: normal; margi
 .ui-selectmenu .ui-header .ui-title { margin: 0.6em 46px 0.8em; }
 
 @media all and (min-width: 450px){
-	.ui-field-contain label.ui-select { vertical-align: top;  display: inline-block;  width: 20%;  margin: 0 2% 0 0; }
+	.ui-field-contain label.ui-select { display: inline-block;  width: 0%;  margin: 0 0 0 0; }
 	.ui-field-contain .ui-select { width: 60%; display: inline-block; }
-}
+}	/*ALEX B REMOVED  vertical-align: top;  width: 20% margin: was 0 2% 0 0;*/ 
 
 /* when no placeholder is defined in a multiple select, the header height doesn't even extend past the close button.  this shim's content in there */
 .ui-selectmenu .ui-header h1:after { content: '.'; visibility: hidden; }
@@ -1278,7 +1279,7 @@ ol.ui-listview .ui-li-jsnumbering:before { content: "" !important; } /* to avoid
 .ui-li.ui-screen-hidden{display:none;}
 /* Odd iPad positioning issue. */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .ui-li .ui-btn-text { overflow:  visible; }
+.ui-li .ui-btn-text { overflow:  visible; }
 }label.ui-slider { font-size: 16px; line-height: 1.4;  font-weight: normal; margin: 0 0 .3em; display: block; }
 input.ui-slider-input,
 .ui-field-contain input.ui-slider-input { display: inline-block; width: 50px; }
@@ -1311,46 +1312,57 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 /*
 @font-face {
 font-family:"interval-pro-cond";
-    src:url(/fonts/webfonts/IntervalProCond.eot);
+src:url(/fonts/webfonts/IntervalProCond.eot);
 }
 */
 
 #header_logo{
-    /* background-image: url("images/sailthru_logo.png"); */
-    display: inline-block;
-    float: left;
-    max-height: 38px;
-    max-width: 177px;
+/* background-image: url("images/sailthru_logo.png"); */
+display: inline-block;
+float: left;
+max-height: 38px;
+max-width: 177px;
 }
 
 #header_logout_panel{
-    background-color: #ffffff;
-    background-image: url("images/logout.png");
-    background-position: 0px 0px;
-    display:block;
-    float: right;
-    width: 83px;
-    height: 38px;
+background-color: #ffffff;
+background-image: url("images/logout.png");
+background-position: 0px 0px;
+display:block;
+float: right;
+width: 83px;
+height: 38px;
 }
 
 #header_logout_panel a{
-    display: block;
-    height: 38px;
-    width:83px;
-    text-indent: -9999px;
+display: block;
+height: 38px;
+width:83px;
+text-indent: -9999px;
 }
 
 #header_logout_panel:hover{  
-    background-position: 83px 0px;
+background-position: 83px 0px;
+}
+
+#graph-dates{		/*	Added by Alex B*/
+display: inline-block;
+width: 100%;
+}
+#graph-dates fieldset{		/*	Added by Alex B*/
+display: inline-block;
+width: 40%;
+margin-left: 4%;
+margin-right: 4%;
 }
 
 .ui-content .ui-collapsible-heading-toggle{
 	background: #404041;
-    border-color: #000000;
+border-color: #000000;
 }
 
 .ui-content .ui-collapsible-content{
-    background: #ffffff;
+background: #ffffff;
 }
 
 .ui-content .ui-btn-hover-a{
@@ -1359,50 +1371,176 @@ font-family:"interval-pro-cond";
 
 .ui-navbar .ui-btn-active{
 	border-bottom: 0px solid ;
-    /*color: #e5fafc;*/
+/*color: #e5fafc;*/
 }
 
 
 .ui-navbar .ui-btn{
-    background: #ffffff;
-    /*background: #e5fafc;*/
-    border-width: 5px;
+background: #ffffff;
+/*background: #e5fafc;*/
+border-width: 12px;           /*alex changed stuff !!!!!!!!!!!!!!!!!!!  -- border-width was 5px before */
 }
 
 .ui-navbar .ui-btn-text{
-    font-size: 12pt;
-    /* font-family: "interval-pro-cond", Helvetica, Arial; */
-    color: #00cced;
+font-size: 12pt;
+/* font-family: "interval-pro-cond", Helvetica, Arial; */
+color: #00cced;
 }
-   
+
 .ui-navbar .ui-btn-hover-a{
-    background: #e5fafc;
+background: #e5fafc;
 }
 .ui-navbar .ui-btn .ui-btn-inner{
-    padding-top: 70px;
+padding-top: 70px;
 }
 .ui-navbar .ui-icon{
-    width: 78px!important;
-    height: 52px!important;
-    margin-left: -39px !important;
-    box-shadow: none!important;
-    -moz-box-shadow: none!important;
-    -webkit-box-shadow: none!important;
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
+width: 78px!important;
+height: 52px!important;
+margin-left: -39px !important;
+box-shadow: none!important;
+-moz-box-shadow: none!important;
+-webkit-box-shadow: none!important;
+-webkit-border-radius: 0 !important;
+border-radius: 0 !important;
 }
 
 #reports .ui-icon {
-    background: url("images/icon_reports_small.png");
-    background-size: 78px 52px;
+background: url("images/icon_reports_small.png");
+background-size: 78px 52px;
 }
 
 #campaigns .ui-icon {
-    background: url("images/icon_campaigns_small.png");
-    background-size: 78px 52px;
+background: url("images/icon_campaigns_small.png");
+background-size: 78px 52px;
 }
 
 #contact .ui-icon {
-    background: url("images/icon_contact_small.png");
-    background-size: 78px 52px;
+background: url("images/icon_contact_small.png");
+background-size: 78px 52px;
+}
+/*BELOW ADDED BY ALEX B FOR HER CONVENIENCE BUT SHOULD BE CLEANED UP*/
+.graph-options {
+display: inline-block;
+width: 100%;
+}
+.graph-options .ui-field-contain .ui-select {
+width: 20%;
+}
+
+.ui-field-contain .ui-select{  /*//POTENTIALLY MESSES UP OTHER WORK*/
+width: 100%;
+}
+
+
+.ui-field-contain .ui-select div{
+width: 100%;
+}
+.ui-field-contain label.ui-select {
+width=0%;
+}
+#graph-options1, #graph-options2, #graph-options3, #graph-options4 {
+width:40%;
+display: inline-block;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+.graph-options .ui-select .ui-btn-icon-right .ui-btn-inner {
+padding-right:5px;
+}
+.graph-options .ui-btn {
+text-align: left;
+cursor: pointer;
+}
+
+#graph-options1 .ui-btn-up-a{
+background: #864A7F;
+border: 1px solid #864A7F;
+}
+#graph-options1 .ui-btn-hover-a{
+background: #c2a3bf;
+border: 1px solid #c2a3bf;
+}
+
+#graph-options2 .ui-btn-up-a{
+background: #6D6E70;
+border: 1px solid #6D6E70;
+}
+#graph-options2 .ui-btn-hover-a{
+background: #b5b5b8;
+border: 1px solid #b5b5b8;
+}
+#graph-options3 .ui-btn-up-a{
+background: #F5EB00;
+border: 1px solid #F5EB00;
+}
+#graph-options3 .ui-btn-hover-a{
+background: #faf580;
+border: 1px solid #faf580;
+}
+#graph-options4 .ui-btn-up-a{
+background: #00CCED;
+border: 1px solid #00CCED;
+}
+#graph-options4 .ui-btn-hover-a{
+background: #80e5f5;
+border: 1px solid #80e5f5;
+}
+
+#recent-campaigns-list, #recent-campaigns-templates {
+width: 40%;
+display: inline-block;
+margin-right: 4%;
+margin-left: 4%;
+}
+
+
+#recent-campaigns-list .ui-btn-up-a, #recent-campaigns-templates .ui-btn-up-a{
+background: #864a7f;
+border: 1px solid #864a7f;
+}
+#recent-campaigns-list .ui-btn-hover-a, #recent-campaigns-templates .ui-btn-hover-a {
+background: #c2a3bf;
+border: 1px solid #c2a3bf;
+}
+#recent-campaigns-grid {
+padding-left: 5px;
+text-align: center;
+}
+#recent-campaigns-grid .cell {
+border: 1px solid black;
+width: 32%;
+height: 40px;
+background-color: #f0f0f0;
+}
+#recent-campaigns-grid #cell-top .cell {
+border: 1px solid black;
+background-color: #9e9ea1;
+width: 32%;
+}
+#recent-campaigns-grid #recent-campaigns-grid-campaigns {
+border: 1px solid white;
+background-color: white;
+float: left;
+}
+#recent-campaigns-grid #recent-campaigns-grid-open, #recent-campaigns-grid #recent-campaigns-grid-clicks {
+width: 32%;
+float: left;
+min-height: .5em;
+font-size: .65em;
+}
+#recent-campaigns-grid .ui-bar, #recent-campaigns-grid .ui-body {
+display: inline-block;
+float: left;
+}
+#grid-top {
+display: inline-block;
+width: 100%;
+}
+
+
+
+
+.ui-content {
+background-color: #00CCED; /* ADDED BY ALEX B*/
 }
